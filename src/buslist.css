@@ -1,0 +1,45 @@
+#back:hover{
+    box-shadow: 0px 0px 3px 3px gray;
+
+}
+#buslist{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://cdn-assets2-cf-r5in.ticketsimply.net/assets/essaar_v1/images/amenitie-bg-78529d23b62de6282aec0e45f683b68150c8b61fec8e718a62a5aa5e2d78f5f3.png");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#busdetail{
+    background-color:rgba(0,0,0,0.8);
+    color: white;
+}
+#busdetail:hover{
+    box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.5);
+}
+#busdetail>button{
+    background-color: #4aad4e;
+    padding: 4px 10px 4px 10px ;
+    border-radius: 10px;
+    font-size: 18px;
+}
+#busdetail>button:hover{
+    box-shadow: 0px 0px 3px 3px #4f7550;
+}
+#busdetail>div>b{
+    color: #4aad4e;
+    font-size: 19px;
+}
+.seat{
+    margin-bottom: 10px;
+    margin-right: 4px;
+}
+.seat:hover{
+    box-shadow: 0px 0px 3px 3px rgba(0,0,0,0.7);
+}
+/* .seat: {
+    background-color: #00ff00; 
+} */
+
+

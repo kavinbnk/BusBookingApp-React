@@ -1,0 +1,255 @@
+/* ----------------------------------------- home image ------------------------------------- */
+#home_image{
+    margin-top: 20px;
+    width: 100%;
+    height:98vh;
+    overflow-x: auto;
+}
+/* ----------------------------------------- nav ---------------------------------- */
+#logo>img{
+    width: 90%;
+}
+#nav{
+    padding: 15px;
+    display: flex;
+    justify-content:space-evenly;
+    width: 97.7vw;
+    background-color: rgba(0,0,0,0.6);
+    position: absolute;
+    top: 0px;
+    padding-left: 4px;
+}
+#menu{
+    display: flex;
+    justify-content: end;
+    color: white;
+    margin-top: 36px;
+}
+#menubar>img{
+    padding-top: 6px;
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+}
+#menubar{
+    display: flex;
+    padding-top: 22px;
+}
+#menubar>div{
+    padding-left: 7px;
+    padding-right: 7px;
+    font-size: 22px;
+}
+#menubar>div>a:hover{
+    color: #4aad4e;
+    cursor: pointer;
+}
+#g_color{
+    color: #4aad4e;
+}
+/*---------------------------------------- input box ----------------------------------- */
+#locationbox{
+    position: absolute;
+    top: 85%;
+    left: 13%;
+    width: 70%;
+    background-color: rgba(0,0,0,0.6);
+    padding: 20px;
+}
+#locationinput{
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+}
+#locationinput>div>input{
+    text-decoration: none;
+    width: 95%;
+    height: 53px;
+    text-align: center;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin: 1px;
+}
+#date{
+    padding: 1px;
+    width: 25%;
+}
+#booknow{
+    width: 25%;
+    height: 57px;
+    background-color: #4aad4e;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1px;
+}
+/* ------------------------------------- second content -------------------------------- */
+/* ----------------- top content --------------------- */
+#secondcontent{
+    background: url("https://cdn-assets1-cf-r5in.ticketsimply.net/assets/essaar_v1/images/routes-imgs-bg-bacb84aa540060f92c9e5d136c641e2d45c7f90bad8f6e27591b9a4e16e57432.jpg");
+    width: 99%;
+    height:88vh;
+}
+#content{
+    display: flex;
+    margin-top: 6%;
+    margin-left: 12%;
+    font-size: 18px;
+}
+#content>div>h2{
+    font-size: 38px;
+    color: #4aad4e;
+}
+#content>div>h3{
+    border: 2px solid #4aad4e;
+    background-color: #4aad4e;
+    padding: 4px;
+    width: 180px;
+    font-size: 24px;
+    color: white;
+    text-align: center;
+}
+#content>div>p{
+    margin-top: -20px;
+}
+#content>div>img{
+    padding-left: 20px;
+    width: 380px;
+    height: 320px;
+}
+/* ---------------------------------- bottom content ------------------------------- */
+#servicedetail{
+    margin-top: 50px;
+    padding-left: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+.serviceimg>img{
+  width: 110px;
+  height: 110px;
+  padding: 6px;
+  border-radius: 20px;
+  background-color: black;
+}
+.serviceimg>h1{
+    color: #4aad4e;
+    margin-top: 0px;
+    text-align: center;
+}
+.serviceimg>p{
+    margin-top: -10px
+}
+/* ------------------------------------------ third content -------------------------------- */
+#thirdcontent{
+    width: 98.8vw;
+    height: 86vh;
+    background-color: #97d399;
+    padding-top: 9%;
+}
+#thirdcontent>span{
+    font-size: 36px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+}
+#thirdcontent>p{
+    font-size: 18px;
+    text-align: center;
+}
+#locimg>img{
+    padding-left: 30px;
+}
+#locimg2>img{
+    padding-left: 30px;
+}
+#locimg{
+    display: flex;
+    justify-content: center;
+}
+#locimg2{
+    display: flex;
+    justify-content: center;
+    margin-left: -250px;
+    margin-top: 30px;
+}
+/* ---------------------------------------- fourth content ------------------------------------------- */
+#fourthcontent{
+    background-color: #f1f1f1;
+    width: 98.7vw;
+    height: 100vh;
+}
+#fourthtopimg>img{
+    margin-left: 14%;
+    width: 44%;
+}
+#fourthtopimg>h1{
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+#fourthbottomimg>h1{
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+}
+#fourthbottomimg>img{
+    margin-left: 18%;
+    width: 60%;
+}
+#fourthbg{
+    width: 99%;
+    margin-top: -280px;
+}
+ /* -------------------------------------------- footer --------------------------------------- */
+ #footercontainer{
+    background-color: #111;
+ }
+ #footer{
+    display: flex;
+    justify-content: space-evenly;
+ }
+ #footer>div>h1{
+    color: #4aad4e;
+ }
+ #footer>div>h3{
+    color: white;
+    padding-top: 20px;
+ }
+ #footer>div>h3:hover{
+    color:#4aad4e;
+    padding-top: 20px;
+ }
+ #otherdetails{
+    display: flex;
+ }
+ #otherdetails>div>h3{
+    color: white;
+ }
+ #otherdetails>div>h3:hover{
+    color:#4aad4e;
+ }
+ #about{
+    padding-left: 20px;
+ }
+ #footerimg{
+    display: flex;
+    background-color: #222;
+    margin-top: 30px;
+    padding: 20px 50px 20px 80px;
+ }
+ #footerimg>img{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    margin-left: 20px;
+ }
+ #footerimg>p{
+   font-size: 18px;
+   color: #4aad4e;
+   padding-left: 65%;
+ }
